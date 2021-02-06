@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}% 
+\contentsline {section}{\numberline {2}Experiment}{3}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Sample Preparation}{3}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Morphology and microstructure characterizations}{4}{subsection.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Polarized Optical Microscope (POM)}{4}{subsubsection.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Small Angle X-ray Scattering(SAXS)}{4}{subsubsection.2.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.3}Wide Angle X-ray Scattering(WAXS)}{4}{subsubsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.3}Dynamic Property Characterization}{4}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Thermal Property Characterization}{5}{subsection.2.4}% 
+\contentsline {subsubsection}{\numberline {2.4.1}Thermogravimetric Analysis (TGA)}{5}{subsubsection.2.4.1}% 
+\contentsline {subsubsection}{\numberline {2.4.2}Differential Scanning Calorimetry (DSC)}{5}{subsubsection.2.4.2}% 
+\contentsline {section}{\numberline {3}Result and Analysis}{6}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Crystallization behavior}{6}{subsection.3.1}% 
+\contentsline {section}{\numberline {4}Conclusion}{6}{section.4}% 
+\contentsline {section}{\numberline {5}Acknowlagement}{6}{section.5}% 
