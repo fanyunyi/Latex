@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2021.2.5)  6 FEB 2021 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2021.2.5)  6 FEB 2021 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**paper-test
-(./paper-test.tex
+**Main
+(./Main.tex
 LaTeX2e <2018-12-01>
 (d:/Texlive/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -56,9 +56,9 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 99.
- (d:/Texlive/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (d:/Texlive/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
@@ -99,7 +99,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Info: Redefining \hbar on input line 50.
 ) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
 \linenopenalty=\count91
 \output=\toks16
 \linenoprevgraf=\count92
@@ -164,63 +163,67 @@ Package: expl3 2019-09-05 L3 programming layer (code)
 \c__fp_Bigg_leading_shift_int=\count119
 \c__fp_Bigg_middle_shift_int=\count120
 \c__fp_Bigg_trailing_shift_int=\count121
-\g__fp_array_int=\count122
-\l__fp_array_loop_int=\count123
-\l__sort_length_int=\count124
-\l__sort_min_int=\count125
-\l__sort_top_int=\count126
-\l__sort_max_int=\count127
-\l__sort_true_max_int=\count128
-\l__sort_block_int=\count129
-\l__sort_begin_int=\count130
-\l__sort_end_int=\count131
-\l__sort_A_int=\count132
-\l__sort_B_int=\count133
-\l__sort_C_int=\count134
-\l__str_internal_int=\count135
-\l__tl_analysis_normal_int=\count136
-\l__tl_analysis_index_int=\count137
-\l__tl_analysis_nesting_int=\count138
-\l__tl_analysis_type_int=\count139
-\l__regex_internal_a_int=\count140
-\l__regex_internal_b_int=\count141
-\l__regex_internal_c_int=\count142
-\l__regex_balance_int=\count143
-\l__regex_group_level_int=\count144
-\l__regex_mode_int=\count145
-\c__regex_cs_in_class_mode_int=\count146
-\c__regex_cs_mode_int=\count147
-\l__regex_catcodes_int=\count148
-\l__regex_default_catcodes_int=\count149
-\c__regex_catcode_L_int=\count150
-\c__regex_catcode_O_int=\count151
-\c__regex_catcode_A_int=\count152
-\c__regex_all_catcodes_int=\count153
-\l__regex_show_lines_int=\count154
-\l__regex_min_state_int=\count155
-\l__regex_max_state_int=\count156
-\l__regex_left_state_int=\count157
-\l__regex_right_state_int=\count158
-\l__regex_capturing_group_int=\count159
-\l__regex_min_pos_int=\count160
-\l__regex_max_pos_int=\count161
-\l__regex_curr_pos_int=\count162
-\l__regex_start_pos_int=\count163
-\l__regex_success_pos_int=\count164
-\l__regex_curr_char_int=\count165
-\l__regex_curr_catcode_int=\count166
-\l__regex_last_char_int=\count167
-\l__regex_case_changed_char_int=\count168
-\l__regex_curr_state_int=\count169
-\l__regex_step_int=\count170
-\l__regex_min_active_int=\count171
-\l__regex_max_active_int=\count172
-\l__regex_replacement_csnames_int=\count173
-\l__regex_match_count_int=\count174
-\l__regex_min_submatch_int=\count175
-\l__regex_submatch_int=\count176
-\l__regex_zeroth_submatch_int=\count177
-\g__regex_trace_regex_int=\count178
+\c__kernel_randint_max_int=\count122
+\g__fp_array_int=\count123
+\l__fp_array_loop_int=\count124
+\l__sort_length_int=\count125
+\l__sort_min_int=\count126
+\l__sort_top_int=\count127
+\l__sort_max_int=\count128
+\l__sort_true_max_int=\count129
+\l__sort_block_int=\count130
+\l__sort_begin_int=\count131
+\l__sort_end_int=\count132
+\l__sort_A_int=\count133
+\l__sort_B_int=\count134
+\l__sort_C_int=\count135
+\l__str_internal_int=\count136
+\c__str_replacement_char_int=\count137
+\l__tl_analysis_normal_int=\count138
+\l__tl_analysis_index_int=\count139
+\l__tl_analysis_nesting_int=\count140
+\l__tl_analysis_type_int=\count141
+\l__regex_internal_a_int=\count142
+\l__regex_internal_b_int=\count143
+\l__regex_internal_c_int=\count144
+\l__regex_balance_int=\count145
+\l__regex_group_level_int=\count146
+\l__regex_mode_int=\count147
+\c__regex_cs_in_class_mode_int=\count148
+\c__regex_cs_mode_int=\count149
+\l__regex_catcodes_int=\count150
+\l__regex_default_catcodes_int=\count151
+\c__regex_catcode_D_int=\count152
+\c__regex_catcode_S_int=\count153
+\c__regex_catcode_L_int=\count154
+\c__regex_catcode_O_int=\count155
+\c__regex_catcode_A_int=\count156
+\c__regex_all_catcodes_int=\count157
+\l__regex_show_lines_int=\count158
+\l__regex_min_state_int=\count159
+\l__regex_max_state_int=\count160
+\l__regex_left_state_int=\count161
+\l__regex_right_state_int=\count162
+\l__regex_capturing_group_int=\count163
+\l__regex_min_pos_int=\count164
+\l__regex_max_pos_int=\count165
+\l__regex_curr_pos_int=\count166
+\l__regex_start_pos_int=\count167
+\l__regex_success_pos_int=\count168
+\l__regex_curr_char_int=\count169
+\l__regex_curr_catcode_int=\count170
+\l__regex_last_char_int=\count171
+\l__regex_case_changed_char_int=\count172
+\l__regex_curr_state_int=\count173
+\l__regex_step_int=\count174
+\l__regex_min_active_int=\count175
+\l__regex_max_active_int=\count176
+\l__regex_replacement_csnames_int=\count177
+\l__regex_match_count_int=\count178
+\l__regex_min_submatch_int=\count179
+\l__regex_submatch_int=\count180
+\l__regex_zeroth_submatch_int=\count181
+\g__regex_trace_regex_int=\count182
 \c_empty_box=\box28
 \l_tmpa_box=\box29
 \l_tmpb_box=\box30
@@ -265,20 +268,18 @@ Package: expl3 2019-09-05 L3 programming layer (code)
 \l__coffin_display_x_dim=\dimen148
 \l__coffin_display_y_dim=\dimen149
 \g__char_data_ior=\read1
-\l__seq_internal_a_int=\count179
-\l__seq_internal_b_int=\count180
-) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
-File: l3backend-xdvipdfmx.def 2019-04-06 v L3 backend support: xdvipdfmx
-\g__graphics_track_int=\count181
+\l__seq_internal_a_int=\count183
+\l__seq_internal_b_int=\count184
+) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2019-04-06 v L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count185
 \l__pdf_internal_box=\box46
-\g__pdf_backend_object_int=\count182
-\g__pdf_backend_annotation_int=\count183
 )) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2019-05-28 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count184
-\g__xparse_grabber_int=\count185
-\l__xparse_m_args_int=\count186
-\l__xparse_v_nesting_int=\count187
+\l__xparse_current_arg_int=\count186
+\g__xparse_grabber_int=\count187
+\l__xparse_m_args_int=\count188
+\l__xparse_v_nesting_int=\count189
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
@@ -295,27 +296,27 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen157
 \cmidrulekern=\dimen158
 \defaultaddspace=\dimen159
-\@cmidla=\count188
-\@cmidlb=\count189
+\@cmidla=\count190
+\@cmidlb=\count191
 \@aboverulesep=\dimen160
 \@belowrulesep=\dimen161
-\@thisruleclass=\count190
-\@lastruleclass=\count191
+\@thisruleclass=\count192
+\@lastruleclass=\count193
 \@thisrulewidth=\dimen162
 ) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/xtab/xtab.sty
 Package: xtab 2011/07/31 v2.3f Extended supertabular package
-\c@tracingst=\count192
+\c@tracingst=\count194
 \PWSTcapht=\dimen163
 \ST@wd=\dimen164
 \ST@rightskip=\skip49
 \ST@leftskip=\skip50
 \ST@parfillskip=\skip51
-\c@PWSTtable=\count193
-\PWSTlastpage=\count194
-\PWSTpenultimate=\count195
-\PWSTcurpage=\count196
-\PWSTtempc=\count197
-\PWSTlines=\count198
+\c@PWSTtable=\count195
+\PWSTlastpage=\count196
+\PWSTpenultimate=\count197
+\PWSTcurpage=\count198
+\PWSTtempc=\count199
+\PWSTlines=\count266
 \PWST@lastht=\dimen165
 \PWST@generalht=\dimen166
 \PWST@ht=\dimen167
@@ -343,8 +344,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen183
 \caption@hangindent=\dimen184
 )
-\c@caption@flags=\count199
-\c@ContinuedFloat=\count266
+\c@caption@flags=\count267
+\c@ContinuedFloat=\count268
 Package caption Info: xtab package is loaded.
 ) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
@@ -365,10 +366,9 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
@@ -389,12 +389,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen185
-\Hy@linkcounter=\count267
-\Hy@pagecounter=\count268
+\Hy@linkcounter=\count269
+\Hy@pagecounter=\count270
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count269
+\Hy@SavedSpaceFactor=\count271
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -406,14 +408,14 @@ Package hyperref Info: Plain pages OFF on input line 4565.
 Package hyperref Info: Backreferencing OFF on input line 4570.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4803.
-\c@Hy@tempcnt=\count270
+\c@Hy@tempcnt=\count272
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5156.
 \XeTeXLinkMargin=\dimen186
-\Fld@menulength=\count271
+\Fld@menulength=\count273
 \Field@Width=\dimen187
 \Fld@charsize=\dimen188
 Package hyperref Info: Hyper figures OFF on input line 6411.
@@ -425,21 +427,13 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6436.
 Package hyperref Info: PDF/A mode OFF on input line 6441.
 LaTeX Info: Redefining \ref on input line 6481.
 LaTeX Info: Redefining \pageref on input line 6485.
-\Hy@abspage=\count272
-\c@Item=\count273
-\c@Hfootnote=\count274
+\Hy@abspage=\count274
+\c@Item=\count275
+\c@Hfootnote=\count276
 )
-Package hyperref Info: Driver (autodetected): hxetex.
- (d:/Texlive/texlive/2019/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2019/06/12 v6.88h Hyperref driver for XeTeX
- (d:/Texlive/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2019/06/12 v6.88h Hyperref: PDF Unicode definition (HO)
-) (d:/Texlive/texlive/2019/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO)
-)
-\pdfm@box=\box48
-\c@Hy@AnnotLevel=\count275
-\HyField@AnnotCount=\count276
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (d:/Texlive/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2019/06/12 v6.88h Hyperref driver for pdfTeX
 \Fld@listcount=\count277
 \c@bookmark@seq@number=\count278
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
@@ -447,8 +441,8 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip52
-) (./paper-test.aux)
-\openout1 = `paper-test.aux'.
+) (./Main.aux)
+\openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
@@ -458,27 +452,20 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Try loading font information for TU+ptm on input line 28.
-LaTeX Font Info:    No file TUptm.fd. on input line 28.
-
-
-LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 28.
-
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 28.
+ (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -509,17 +496,42 @@ LaTeX Font Warning: Font shape `TU/ptm/m/n' undefined
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\big@size=\dimen189
+(d:/Texlive/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count279
+\scratchdimen=\dimen189
+\scratchbox=\box48
+\nofMPsegments=\count280
+\nofMParguments=\count281
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count282
+\MPscratchDim=\dimen190
+\MPnumerator=\count283
+\makeMPintoPDFobject=\count284
+\everyMPtoPDFconversion=\toks18
+) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (d:/Texlive/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (d:/Texlive/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\big@size=\dimen191
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box49
-(d:/Texlive/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
+ (d:/Texlive/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: xetex.def on input line 147.
+Package color Info: Driver file: pdftex.def on input line 147.
 )
 Package hyperref Info: Link coloring ON on input line 28.
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -527,21 +539,20 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (d:/Texlive/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count279
+\c@section@level=\count285
 )
 LaTeX Info: Redefining \ref on input line 28.
 LaTeX Info: Redefining \pageref on input line 28.
 LaTeX Info: Redefining \nameref on input line 28.
- (./paper-test.out) (./paper-test.out)
+ (./Main.out) (./Main.out)
 \@outlinefile=\write3
-\openout3 = `paper-test.out'.
+\openout3 = `Main.out'.
 
-
-
-LaTeX Font Warning: Font shape `TU/ptm/bx/n' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 30.
-
-(./paper-test.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+ (./Main.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 3.
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
@@ -558,66 +569,61 @@ LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 3.
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 3.
- (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 )
 \tf@toc=\write4
-\openout4 = `paper-test.toc'.
+\openout4 = `Main.toc'.
 
- (d:/Texlive/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-) [1
-
-]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+ [1
+
+{d:/Texlive/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
- [2] [3] [4]
-File: figures/DSC_result_1.png Graphic file (type bmp)
-<figures/DSC_result_1.png>
- [5]
-Overfull \hbox (68.5586pt too wide) in paragraph at lines 164--178
+ [2]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
+ [3] [4]
+<figures/DSC_result_1.png, id=111, 651.8754pt x 499.1448pt>
+File: figures/DSC_result_1.png Graphic file (type png)
+<use figures/DSC_result_1.png>
+Package pdftex.def Info: figures/DSC_result_1.png  used on input line 158.
+(pdftex.def)             Requested size: 325.93689pt x 249.5718pt.
+
+Overfull \hbox (29.83401pt too wide) in paragraph at lines 165--179
 [][]
  []
 
-(./paper-test.bbl
-
-LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
-(Font)              using `TU/ptm/m/n' instead on input line 9.
-
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
- (./paper-test.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 190.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
-Package rerunfilecheck Info: File `paper-test.out' has not changed.
-(rerunfilecheck)             Checksum: CD365A911EC280BA7ED0C7E897216E28.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
+[5] (./Main.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
+ [6 <./figures/DSC_result_1.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+ (./Main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 04D9FF08BEFF117FFCE82BCA97BB2132;1123.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
  ) 
 Here is how much of TeX's memory you used:
- 20194 strings out of 492909
- 350872 string characters out of 6132924
- 649141 words of memory out of 5000000
- 24149 multiletter control sequences out of 15000+600000
- 549006 words of font info for 67 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 36i,10n,45p,320b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 17441 strings out of 492609
+ 316176 string characters out of 6129027
+ 626117 words of memory out of 5000000
+ 21206 multiletter control sequences out of 15000+600000
+ 571959 words of font info for 101 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,10n,63p,287b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/Texlive/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/Texlive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Texlive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Texlive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><d:/Texlive/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Texlive/texlive/2019/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/Texlive/texlive/2019/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><d:/Texlive/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><d:/Texlive/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><d:/Texlive/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Main.pdf (6 pages, 121894 bytes).
+PDF statistics:
+ 165 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on paper-test.pdf (6 pages).
