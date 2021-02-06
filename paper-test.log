@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2021.2.5)  6 FEB 2021 14:50
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2021.2.5)  6 FEB 2021 15:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -538,9 +538,6 @@ LaTeX Info: Redefining \nameref on input line 28.
 
 
 
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-
 LaTeX Font Warning: Font shape `TU/ptm/bx/n' undefined
 (Font)              using `TU/ptm/m/n' instead on input line 30.
 
@@ -606,28 +603,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
  (./paper-test.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 190.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
+Package rerunfilecheck Info: File `paper-test.out' has not changed.
+(rerunfilecheck)             Checksum: CD365A911EC280BA7ED0C7E897216E28.
 
-
-Package rerunfilecheck Warning: File `paper-test.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `paper-test.out':
-(rerunfilecheck)             Before: 04D9FF08BEFF117FFCE82BCA97BB2132
-(rerunfilecheck)             After:  CD365A911EC280BA7ED0C7E897216E28.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
  ) 
 Here is how much of TeX's memory you used:
- 20196 strings out of 492909
- 350918 string characters out of 6132924
- 649055 words of memory out of 5000000
- 24151 multiletter control sequences out of 15000+600000
+ 20194 strings out of 492909
+ 350872 string characters out of 6132924
+ 649141 words of memory out of 5000000
+ 24149 multiletter control sequences out of 15000+600000
  549006 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  36i,10n,45p,320b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
