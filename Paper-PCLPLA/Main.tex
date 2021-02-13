@@ -1,30 +1,5 @@
-\documentclass{article}%文章类型 %中文环境
-\usepackage[a4paper,left=3cm,right=3cm]{geometry} %纸型，页边距
-\usepackage{graphicx} %插图宏包
-\usepackage{mathptmx} %数学字体包
-\usepackage{lineno}
-\usepackage{setspace}
-\usepackage{lipsum} %随机文本
-\usepackage{booktabs} %三线表格 常用于科技文献
-\usepackage{xtab} %表头
-\usepackage{caption} %标题参数设置宏包
-\renewcommand{\baselinestretch}{2}
-\bibliographystyle{naturemag}
-\usepackage[colorlinks,
-linkcolor=blue,
-anchorcolor=red,
-citecolor=green
-]{hyperref} %交叉引用
-\def\figureautorefname{Fig}%引用图注
-\newcommand{\enabstractname}{\Large Abstract}%摘要环境
-\newenvironment{enabstract}{%
-	\par\small
-	\noindent\mbox{}\hfill{\bfseries \enabstractname}\hfill\mbox{}\par\vskip 2.5ex}{\par\vskip 2.5ex}
-\newenvironment{cnabstract}{%
-  \par\small
-  \noindent\mbox{}\hfill{\bfseries \cnabstractname}\hfill\mbox{}\par
-  \vskip 2.5ex}{\par\vskip 2.5ex}{}
-\author{Fanyunyi}
+%格式控制
+\documentclass{Head}
 \begin{document}
 \linenumbers
 \tableofcontents
