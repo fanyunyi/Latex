@@ -5,7 +5,7 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Polarized Optical Microscope (POM)}{4}{subsubsection.2.2.1}% 
 \contentsline {subsubsection}{\numberline {2.2.2}Small Angle X-ray Scattering(SAXS)}{4}{subsubsection.2.2.2}% 
 \contentsline {subsubsection}{\numberline {2.2.3}Wide Angle X-ray Scattering(WAXS)}{4}{subsubsection.2.2.3}% 
-\contentsline {subsection}{\numberline {2.3}Dynamic Property Characterization}{5}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.3}Dynamic Property Characterization}{4}{subsection.2.3}% 
 \contentsline {subsection}{\numberline {2.4}Thermal Property Characterization}{5}{subsection.2.4}% 
 \contentsline {subsubsection}{\numberline {2.4.1}Thermogravimetric Analysis (TGA)}{5}{subsubsection.2.4.1}% 
 \contentsline {subsubsection}{\numberline {2.4.2}Differential Scanning Calorimetry (DSC)}{5}{subsubsection.2.4.2}% 
