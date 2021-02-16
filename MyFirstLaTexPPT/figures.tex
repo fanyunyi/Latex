@@ -1,5 +1,6 @@
 \documentclass{beamer}
 \usepackage{tikz}
+\usepackage[UTF8]{ctex}
 \begin{document}
 \usetikzlibrary{calc}
 \begin{tikzpicture}
@@ -50,5 +51,8 @@
     \coordinate[label=0:$Q^\prime$] (Qprime) at($ (P)!1.2!(O) $);
     \coordinate[label=270:$Q$] (Q) at($ (P)!-0.2!(O) $);
     \draw[](Q)--(Qprime);
+    \coordinate[label=180:$\textbf{S}$](S_vector) at(120:1.1);
+    \draw[->](-2.9,0)--(-2.3,0);
+    \coordinate[label=90:$\textbf{S}_0$](S0_vector) at (-2.6,0);
 \end{tikzpicture}
 \end{document}
