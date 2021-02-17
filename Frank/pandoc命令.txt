@@ -1,0 +1,1 @@
+pandoc C:\Users\23168\Desktop\Frank\课程小论文.tex -o Frank.docx --bibliography=ref.bib

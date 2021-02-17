@@ -8,7 +8,7 @@
 \end{tikzpicture}
 \begin{tikzpicture}
     \coordinate[label=above:$P$] (P) at (120:1);
-    \coordinate[label=below:$P_0$] (P0) at (P|-0,0);
+    \coordinate[label=below:$P_0$] (P0) at (P-|,1);
     \draw(0,0)--(P);
     \draw(P)--(P0);
     \draw[->](-1.2,0)--(1.2,0);
@@ -23,7 +23,7 @@
     \draw(-2,0)--(2,0);
     \coordinate[label=below:$S$] (S) at (0,0); %定义一个点
     \coordinate[label=225:$O$] (O) at (2,0);
-    \draw[densely dashed](2,-3)--(2,3);
+    \draw[densely dashed] (2,-3)--(2,3);
     \coordinate[label=above:$F$] (F) at (2,3);
     \coordinate[label=below:$F^\prime$] (Fprime) at (2,-3);
     \coordinate[label=135:$P^{\prime\prime}$] (Pprimeprime) at(20:2);

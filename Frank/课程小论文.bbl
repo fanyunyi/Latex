@@ -1,0 +1,74 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{RN102}
+\bibinfo{author}{Zeng, J.} \emph{et~al.}
+\newblock \bibinfo{title}{Performance on absolute scattering intensity
+  calibration and protein molecular weight determination at bl16b1, a dedicated
+  saxs beamline at ssrf}.
+\newblock \emph{\bibinfo{journal}{Journal of Synchrotron Radiation}}
+  \textbf{\bibinfo{volume}{24}}, \bibinfo{pages}{509--520}
+  (\bibinfo{year}{2017}).
+
+\bibitem{RN59}
+\bibinfo{author}{Zhu, B.} \emph{et~al.}
+\newblock \bibinfo{title}{Effects of interface interaction and microphase
+  dispersion on the mechanical properties of pcl/pla/mmt nanocomposites
+  visualized by nanomechanical mapping}.
+\newblock \emph{\bibinfo{journal}{Composites Science and Technology}}
+  \textbf{\bibinfo{volume}{190}} (\bibinfo{year}{2020}).
+
+\bibitem{RN40}
+\bibinfo{author}{Kim, K.-J.} \& \bibinfo{author}{Shvyd’ko, Y.~V.}
+\newblock \bibinfo{title}{Tunable optical cavity for an x-ray
+  free-electron-laser oscillator}.
+\newblock \emph{\bibinfo{journal}{Physical Review Special Topics - Accelerators
+  and Beams}} \textbf{\bibinfo{volume}{12}} (\bibinfo{year}{2009}).
+
+\bibitem{RN35}
+\bibinfo{author}{Li, T.}, \bibinfo{author}{Senesi, A.~J.} \&
+  \bibinfo{author}{Lee, B.}
+\newblock \bibinfo{title}{Small angle x-ray scattering for nanoparticle
+  research}.
+\newblock \emph{\bibinfo{journal}{Chem Rev}} \textbf{\bibinfo{volume}{116}},
+  \bibinfo{pages}{11128--80} (\bibinfo{year}{2016}).
+\newblock \urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/27054962}.
+
+\bibitem{RN43}
+\bibinfo{author}{Huang, X.} \emph{et~al.}
+\newblock \bibinfo{title}{11 nm hard x-ray focus from a large-aperture
+  multilayer laue lens}.
+\newblock \emph{\bibinfo{journal}{Sci Rep}} \textbf{\bibinfo{volume}{3}},
+  \bibinfo{pages}{3562} (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/24356395}.
+
+\bibitem{RN42}
+\bibinfo{author}{Riekel, C.}, \bibinfo{author}{Burghammer, M.} \&
+  \bibinfo{author}{Davies, R.}
+\newblock \bibinfo{title}{Progress in micro- and nano-diffraction at the esrf
+  id13 beamline}.
+\newblock \emph{\bibinfo{journal}{IOP Conference Series: Materials Science and
+  Engineering}} \textbf{\bibinfo{volume}{14}} (\bibinfo{year}{2010}).
+
+\bibitem{RN38}
+\bibinfo{author}{Buffet, A.} \emph{et~al.}
+\newblock \bibinfo{title}{P03, the microfocus and nanofocus x-ray scattering
+  (minaxs) beamline of the petra iii storage ring: the microfocus endstation}.
+\newblock \emph{\bibinfo{journal}{J Synchrotron Radiat}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{647--53}
+  (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/22713902}.
+
+\bibitem{RN98}
+\bibinfo{author}{Lin, W.} \emph{et~al.}
+\newblock \bibinfo{title}{Single-layer temperature-adjusting transition method
+  to improve the bond strength of 3d-printed pcl/pla parts}.
+\newblock \emph{\bibinfo{journal}{Composites Part A: Applied Science and
+  Manufacturing}} \textbf{\bibinfo{volume}{115}}, \bibinfo{pages}{22--30}
+  (\bibinfo{year}{2018}).
+
+\end{thebibliography}
