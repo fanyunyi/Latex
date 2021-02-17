@@ -1,0 +1,26 @@
+\usepackage[UTF8]{ctex} %中文环境
+\usepackage[a4paper,left=2.5cm,right=2.5cm]{geometry}%页面设置
+\usepackage{fancyhdr} %页眉页脚格式包
+\usepackage{balance} %文章平衡包
+\usepackage{multicol} %分页控制包
+\usepackage{graphicx} %插图宏包
+\usepackage[font=small,labelfont=bf]{caption} %图标宏包
+\usepackage{float} %提供H功能（一个非浮动体环境的figure)
+\usepackage{color} %使用彩色
+\usepackage{amsmath}
+	\pagestyle{fancy} %页眉页脚风格
+	\title{\zihao{0}练习文档} %标题及其字号
+	\author{\zihao{1}樊云谊} %作者及其字号
+	\date{2020-02-25}
+	\fancyhead[RO]{Latex页面设置练习}	%页眉设置
+	\fancyhead[LO]{2020年02月}
+	\fancyfoot[RO]{上海应用物理研究所} %页脚设置
+	\fancyfoot[RE]{材料能源与科学部}
+	\setlength{\columnseprule}{0.4pt} %页中线
+	\balance
+	\normalfont %默认字体，通常为10pt
+	\pagecolor[rgb]{0.9,0.9,0.9} %指定页面底色，RGB模式
+	\newcommand\loves[2]{#1喜欢#2} 
+	\newcommand\hatedby[2]{#2不受#1喜欢} %自定义命令
+	\renewcommand{\thesection}{\Roman{section}} %重定义章节序号格式，由默认的阿拉伯数字改为罗马数字、汉字、拉丁字母等。
+	\endinput %显式中止插入   
