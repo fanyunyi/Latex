@@ -8,6 +8,7 @@
 \RequirePackage{lineno}
 \RequirePackage{setspace}
 \RequirePackage{lipsum} %随机文本
+\RequirePackage{multirow}
 \RequirePackage{booktabs} %三线表格 常用于科技文献
 \RequirePackage{xtab} %表头
 \RequirePackage{caption} %标题参数设置宏包

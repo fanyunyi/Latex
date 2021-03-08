@@ -2,25 +2,26 @@
 \begin{document}
 \begin{table}
     \caption{Crystallinity($\chi_c$) and thermal stability of components in PCL/PLA blends}
-    \begin{tabular}{cccccccc}
+    \begin{tabular}{llllllll}
         \toprule
-        Sample & $\chi_{PCL}$ (\%) & $\chi_{PLA}$(\%) & $T_m^{PCL}$($\mathrm{^o C}$) & $T_d^{PCL}$($\mathrm{^o C}$) & $\chi_{PCL}$(\%)(WAXS) & $\chi_{PLA}$(\%)(WAXS) & R(\%) \\
+        \multirow{2}{*} & \multicolumn{3}{l}{DSC} & TGA              & \multicolumn{3}{l}{WAXS}                                                                                      \\
+        \cline{2-8} %画一个在2-8排之间的横线
+        Sample          & $\chi_{PCL}$ (\%)       & $\chi_{PLA}$(\%) & $T_{m_{PCL}}$($\mathrm{^o C}$) & $T_{d_{PCL}}$($\mathrm{^o C}$) & $\chi_{PCL}$(\%) & $\chi_{PLA}$(\%) & R(\%) \\
         \midrule
-        0\%    & 17.8              & 6.13             & 60.2                         &                              & 27.65                  & 4.81                   & 9.48  \\
-        25\%   & 21.6              & 4.77             & 60.3                         &                              & 31.95                  & 6.41                   & 5.42  \\
-        50\%   & 24.1              & 4.87             & 61.1                         &                              & 34.00                  & 7.84                   & 5.81  \\
-        75\%   & 23.3              & 5.60             & 59.2                         &                              & 31.00                  & 7.21                   & 8.68  \\
-        100\%  & 28.6              & 4.43             & 63.4                         &                              & 33.20                  & 4.56                   & 9.34  \\
-        125\%  & 28.8              & 5.17             & 62.0                         &                              & 30.09                  & 6.96                   & 7.98  \\
+        0\%             & 17.8                    & 6.13             & 60.2                           &                                & 27.65            & 4.81             & 9.48  \\
+        25\%            & 21.6                    & 4.77             & 60.3                           &                                & 31.95            & 6.41             & 5.42  \\
+        50\%            & 24.1                    & 4.87             & 61.1                           &                                & 34.00            & 7.84             & 5.81  \\
+        75\%            & 23.3                    & 5.60             & 59.2                           &                                & 31.00            & 7.21             & 8.68  \\
+        100\%           & 28.6                    & 4.43             & 63.4                           &                                & 33.20            & 4.56             & 9.34  \\
+        125\%           & 28.8                    & 5.17             & 62.0                           &                                & 30.09            & 6.96             & 7.98  \\
         \bottomrule
         \label{DSC_result_table}
     \end{tabular}
 
     $\chi_c $ calculated using $\Delta_m^c$ of PCL of 139.5($\mathrm{J\cdot g^{-1}}$), $\Delta_m^c$ of PLA of 79($\mathrm{J\cdot g^{-1}}$).\par
-    In MDI jade, R is the \textit{residual errors of fit} when crystallinity was calculated.
+    In MDI jade, R is the \textit{residual errors of fit} when crystallinity was calculated and required $\leq$ 10 \%.
 \end{table}
 \begin{table}
-    \centering
     \caption{SAXS analysis of PCL/PLA blends}
     \begin{tabular}{cccc}
         \toprule
@@ -36,7 +37,6 @@
     \end{tabular}
 \end{table}
 \begin{table}
-    \centering
     \caption{Dynamic properties of the PCL/PLA blends}
     \begin{tabular}{cccc}
         \toprule

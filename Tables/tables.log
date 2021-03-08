@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2021.2.5)  4 MAR 2021 11:55
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2021.2.5)  8 MAR 2021 23:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -343,87 +343,93 @@ Package: xparse 2019-05-28 L3 Experimental document command parser
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-)) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+)) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count266
+\multirow@dima=\skip53
+\bigstrutjot=\dimen159
+) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen159
-\lightrulewidth=\dimen160
-\cmidrulewidth=\dimen161
-\belowrulesep=\dimen162
-\belowbottomsep=\dimen163
-\aboverulesep=\dimen164
-\abovetopsep=\dimen165
-\cmidrulesep=\dimen166
-\cmidrulekern=\dimen167
-\defaultaddspace=\dimen168
-\@cmidla=\count266
-\@cmidlb=\count267
-\@aboverulesep=\dimen169
-\@belowrulesep=\dimen170
-\@thisruleclass=\count268
-\@lastruleclass=\count269
-\@thisrulewidth=\dimen171
+\heavyrulewidth=\dimen160
+\lightrulewidth=\dimen161
+\cmidrulewidth=\dimen162
+\belowrulesep=\dimen163
+\belowbottomsep=\dimen164
+\aboverulesep=\dimen165
+\abovetopsep=\dimen166
+\cmidrulesep=\dimen167
+\cmidrulekern=\dimen168
+\defaultaddspace=\dimen169
+\@cmidla=\count267
+\@cmidlb=\count268
+\@aboverulesep=\dimen170
+\@belowrulesep=\dimen171
+\@thisruleclass=\count269
+\@lastruleclass=\count270
+\@thisrulewidth=\dimen172
 ) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/xtab/xtab.sty
 Package: xtab 2011/07/31 v2.3f Extended supertabular package
-\c@tracingst=\count270
-\PWSTcapht=\dimen172
-\ST@wd=\dimen173
-\ST@rightskip=\skip52
-\ST@leftskip=\skip53
-\ST@parfillskip=\skip54
-\c@PWSTtable=\count271
-\PWSTlastpage=\count272
-\PWSTpenultimate=\count273
-\PWSTcurpage=\count274
-\PWSTtempc=\count275
-\PWSTlines=\count276
-\PWST@lastht=\dimen174
-\PWST@generalht=\dimen175
-\PWST@ht=\dimen176
-\ST@pageleft=\dimen177
-\ST@headht=\dimen178
-\ST@tailht=\dimen179
-\ST@pagesofar=\dimen180
-\ST@pboxht=\dimen181
-\ST@lineht=\dimen182
-\ST@stretchht=\dimen183
-\ST@prevht=\dimen184
-\ST@toadd=\dimen185
-\ST@dimen=\dimen186
+\c@tracingst=\count271
+\PWSTcapht=\dimen173
+\ST@wd=\dimen174
+\ST@rightskip=\skip54
+\ST@leftskip=\skip55
+\ST@parfillskip=\skip56
+\c@PWSTtable=\count272
+\PWSTlastpage=\count273
+\PWSTpenultimate=\count274
+\PWSTcurpage=\count275
+\PWSTtempc=\count276
+\PWSTlines=\count277
+\PWST@lastht=\dimen175
+\PWST@generalht=\dimen176
+\PWST@ht=\dimen177
+\ST@pageleft=\dimen178
+\ST@headht=\dimen179
+\ST@tailht=\dimen180
+\ST@pagesofar=\dimen181
+\ST@pboxht=\dimen182
+\ST@lineht=\dimen183
+\ST@stretchht=\dimen184
+\ST@prevht=\dimen185
+\ST@toadd=\dimen186
+\ST@dimen=\dimen187
 \ST@pbox=\box49
 ) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2019/09/01 v3.3d Customizing captions (AR)
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen187
-\captionmargin@=\dimen188
-\captionwidth=\dimen189
-\caption@tempdima=\dimen190
-\caption@indent=\dimen191
-\caption@parindent=\dimen192
-\caption@hangindent=\dimen193
+\captionmargin=\dimen188
+\captionmargin@=\dimen189
+\captionwidth=\dimen190
+\caption@tempdima=\dimen191
+\caption@indent=\dimen192
+\caption@parindent=\dimen193
+\caption@hangindent=\dimen194
 )
-\c@caption@flags=\count277
-\c@ContinuedFloat=\count278
+\c@caption@flags=\count278
+\c@ContinuedFloat=\count279
 Package caption Info: xtab package is loaded.
 ) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count279
-\l__fontspec_language_int=\count280
-\l__fontspec_strnum_int=\count281
-\l__fontspec_tmp_int=\count282
-\l__fontspec_tmpa_int=\count283
-\l__fontspec_tmpb_int=\count284
-\l__fontspec_tmpc_int=\count285
-\l__fontspec_em_int=\count286
-\l__fontspec_emdef_int=\count287
-\l__fontspec_strong_int=\count288
-\l__fontspec_strongdef_int=\count289
-\l__fontspec_tmpa_dim=\dimen194
-\l__fontspec_tmpb_dim=\dimen195
-\l__fontspec_tmpc_dim=\dimen196
+\l__fontspec_script_int=\count280
+\l__fontspec_language_int=\count281
+\l__fontspec_strnum_int=\count282
+\l__fontspec_tmp_int=\count283
+\l__fontspec_tmpa_int=\count284
+\l__fontspec_tmpb_int=\count285
+\l__fontspec_tmpc_int=\count286
+\l__fontspec_em_int=\count287
+\l__fontspec_emdef_int=\count288
+\l__fontspec_strong_int=\count289
+\l__fontspec_strongdef_int=\count290
+\l__fontspec_tmpa_dim=\dimen195
+\l__fontspec_tmpb_dim=\dimen196
+\l__fontspec_tmpc_dim=\dimen197
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/base/tuenc.def
@@ -441,7 +447,7 @@ File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many o
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/tipa/t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
 )
-\tipaTiiicode=\count290
+\tipaTiiicode=\count291
 \tipasavetokens=\toks22
 \tipachecktokens=\toks23
 ) (d:/Texlive/texlive/2019/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
@@ -451,7 +457,7 @@ Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 ) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/realscripts/realscripts.sty
 Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscripts
-\subsupersep=\dimen197
+\subsupersep=\dimen198
 ) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/metalogo/metalogo.sty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
 \xl@everylogo=\toks24
@@ -466,8 +472,8 @@ LaTeX Info: Redefining \LaTeXe on input line 219.
 \g__xetex_show_hyphens_word_box=\box53
 ) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2019/09/01 v1.3a Sub-captions (AR)
-\c@subfigure=\count291
-\c@subtable=\count292
+\c@subfigure=\count292
+\c@subtable=\count293
 )
 
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
@@ -496,7 +502,7 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             <->"Times New
 (fontspec)             Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 
-LaTeX Info: Redefining \rmfamily on input line 18.
+LaTeX Info: Redefining \rmfamily on input line 19.
 
 Package fontspec Info: Font family 'Arial(0)' created for font 'Arial' with
 (fontspec)             options [Ligatures=TeX].
@@ -521,7 +527,7 @@ Package fontspec Info: Font family 'Arial(0)' created for font 'Arial' with
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
 (fontspec)             <->"Arial/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 
-LaTeX Info: Redefining \sffamily on input line 19.
+LaTeX Info: Redefining \sffamily on input line 20.
 
 Package fontspec Info: Font family 'CourierNew(0)' created for font 'Courier
 (fontspec)             New' with options
@@ -563,7 +569,7 @@ Package fontspec Info: Font family 'CourierNew(0)' created for font 'Courier
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
-LaTeX Info: Redefining \ttfamily on input line 20.
+LaTeX Info: Redefining \ttfamily on input line 21.
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
  (d:/Texlive/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -605,13 +611,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ) (d:/Texlive/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen198
-\Hy@linkcounter=\count293
-\Hy@pagecounter=\count294
+\@linkdim=\dimen199
+\Hy@linkcounter=\count294
+\Hy@pagecounter=\count295
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count295
+\Hy@SavedSpaceFactor=\count296
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -623,16 +629,16 @@ Package hyperref Info: Plain pages OFF on input line 4565.
 Package hyperref Info: Backreferencing OFF on input line 4570.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4803.
-\c@Hy@tempcnt=\count296
+\c@Hy@tempcnt=\count297
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5156.
-\XeTeXLinkMargin=\dimen199
-\Fld@menulength=\count297
-\Field@Width=\dimen256
-\Fld@charsize=\dimen257
+\XeTeXLinkMargin=\dimen256
+\Fld@menulength=\count298
+\Field@Width=\dimen257
+\Fld@charsize=\dimen258
 Package hyperref Info: Hyper figures OFF on input line 6411.
 Package hyperref Info: Link nesting OFF on input line 6416.
 Package hyperref Info: Hyper index ON on input line 6419.
@@ -642,9 +648,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6436.
 Package hyperref Info: PDF/A mode OFF on input line 6441.
 LaTeX Info: Redefining \ref on input line 6481.
 LaTeX Info: Redefining \pageref on input line 6485.
-\Hy@abspage=\count298
-\c@Item=\count299
-\c@Hfootnote=\count300
+\Hy@abspage=\count299
+\c@Item=\count300
+\c@Hfootnote=\count301
 )
 Package hyperref Info: Driver (autodetected): hxetex.
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/hyperref/hxetex.def
@@ -655,15 +661,15 @@ File: puenc.def 2019/06/12 v6.88h Hyperref: PDF Unicode definition (HO)
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO)
 )
 \pdfm@box=\box54
-\c@Hy@AnnotLevel=\count301
-\HyField@AnnotCount=\count302
-\Fld@listcount=\count303
-\c@bookmark@seq@number=\count304
+\c@Hy@AnnotLevel=\count302
+\HyField@AnnotCount=\count303
+\Fld@listcount=\count304
+\c@bookmark@seq@number=\count305
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
-\Hy@SectionHShift=\skip55
+\Hy@SectionHShift=\skip57
 )) (./tables.aux)
 \openout1 = `tables.aux'.
 
@@ -743,7 +749,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (d:/Texlive/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count305
+\c@section@level=\count306
 )
 LaTeX Info: Redefining \ref on input line 2.
 LaTeX Info: Redefining \pageref on input line 2.
@@ -778,13 +784,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-
-Overfull \hbox (7.89865pt too wide) in paragraph at lines 5--18
-[][] 
- []
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
-(d:/Texlive/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+ (d:/Texlive/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ) [1]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
@@ -796,12 +797,12 @@ Package rerunfilecheck Info: File `tables.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 26084 strings out of 492909
- 486432 string characters out of 6132924
- 653748 words of memory out of 5000000
- 29946 multiletter control sequences out of 15000+600000
+ 26125 strings out of 492909
+ 487144 string characters out of 6132924
+ 655356 words of memory out of 5000000
+ 29983 multiletter control sequences out of 15000+600000
  541108 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 50i,11n,81p,337b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,11n,81p,323b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on tables.pdf (1 page).
