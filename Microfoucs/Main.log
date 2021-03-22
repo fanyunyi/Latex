@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2021.2.5)  17 MAR 2021 15:42
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2021.2.5)  22 MAR 2021 19:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -502,7 +502,7 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             <->"Times New
 (fontspec)             Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 
-LaTeX Info: Redefining \rmfamily on input line 19.
+LaTeX Info: Redefining \rmfamily on input line 21.
 
 Package fontspec Info: Font family 'Arial(0)' created for font 'Arial' with
 (fontspec)             options [Ligatures=TeX].
@@ -527,7 +527,7 @@ Package fontspec Info: Font family 'Arial(0)' created for font 'Arial' with
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
 (fontspec)             <->"Arial/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 
-LaTeX Info: Redefining \sffamily on input line 20.
+LaTeX Info: Redefining \sffamily on input line 22.
 
 Package fontspec Info: Font family 'CourierNew(0)' created for font 'Courier
 (fontspec)             New' with options
@@ -569,7 +569,7 @@ Package fontspec Info: Font family 'CourierNew(0)' created for font 'Courier
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
-LaTeX Info: Redefining \ttfamily on input line 21.
+LaTeX Info: Redefining \ttfamily on input line 23.
  (d:/Texlive/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
  (d:/Texlive/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -705,7 +705,7 @@ LaTeX Font Info:    ... okay on input line 2.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
 * v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
@@ -719,7 +719,7 @@ LaTeX Font Info:    ... okay on input line 2.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
+* \marginparwidth=121.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
@@ -727,8 +727,8 @@ LaTeX Font Info:    ... okay on input line 2.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -758,59 +758,83 @@ LaTeX Info: Redefining \nameref on input line 2.
 \@outlinefile=\write3
 \openout3 = `Main.out'.
 
- (./Main.toc)
+ (./Main.toc
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 3.
+ (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 3.
+ (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 3.
+ (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 3.
+ (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 3.
+ (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+)
 \tf@toc=\write4
 \openout4 = `Main.toc'.
 
  (d:/Texlive/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 )
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 13.
- (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 13.
- (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 13.
- (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 13.
- (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 13.
- (d:/Texlive/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
+File: Figures/Fig1WholeSystem.png Graphic file (type bmp)
+<Figures/Fig1WholeSystem.png>
  [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 22.
+File: Figures/Fig2CRL.png Graphic file (type bmp)
+<Figures/Fig2CRL.png>
+
+Underfull \vbox (badness 2990) has occurred while \output is active []
+
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
+File: Figures/Fig3POM.png Graphic file (type bmp)
+<Figures/Fig3POM.png>
+
+Underfull \vbox (badness 2495) has occurred while \output is active []
+
+ [3] [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+File: Figures/Fig4SiteMap.png Graphic file (type bmp)
+<Figures/Fig4SiteMap.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
  (./Main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 22.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 22.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 92A14E73BAD884AF051C79D22DB75067.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 22.
+(rerunfilecheck)             Checksum: B087F1500679E236BA7350C66F4AFC63.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 26134 strings out of 492909
- 487333 string characters out of 6132924
- 652246 words of memory out of 5000000
- 29986 multiletter control sequences out of 15000+600000
- 541132 words of font info for 81 fonts, out of 8000000 for 9000
+ 26172 strings out of 492909
+ 488124 string characters out of 6132924
+ 654829 words of memory out of 5000000
+ 30015 multiletter control sequences out of 15000+600000
+ 541148 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 50i,5n,81p,321b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,12n,81p,321b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.pdf (2 pages).
+Output written on Main.pdf (7 pages).
