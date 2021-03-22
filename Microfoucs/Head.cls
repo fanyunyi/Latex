@@ -15,6 +15,8 @@
 \RequirePackage{fontspec,xunicode,xltxtra} %以下四行为字体设置 衬线体 无衬线体 等宽体设置
 \RequirePackage{caption}
 \RequirePackage{subcaption}
+\captionsetup[figure]{labelfont={bf},name={Fig.},labelsep=period}
+\captionsetup[table]{labelfont={bf},name={Table.},labelsep=period}
 \setmainfont{Times New Roman}
 \setsansfont{Arial}
 \setmonofont{Courier New}
@@ -24,8 +26,9 @@
 linkcolor=blue,
 anchorcolor=red,
 citecolor=green
-]{hyperref} %交叉引用
-\def\figureautorefname{Fig}%引用图注
+]{hyperref} %交叉引用与其格式控制
+\def\figureautorefname{Fig.}%引用图注
+\renewcommand{\equationautorefname}{Eq.} %引用公式
 \newcommand{\enabstractname}{\Large Abstract}%摘要环境
 \newenvironment{enabstract}{%
 	\par\small
