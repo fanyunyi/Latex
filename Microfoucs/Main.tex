@@ -14,10 +14,10 @@ Firstly, considering the size of polymer spherulites, an X-ray spot with a size 
 A small spot provides sufficient spatial resolution when the structure of macromolecules are characterized by the SAXS method.
 Secondly, In order to match the detection result with the real structure, confirming the real-time exact position of X-ray incident beam on polymer crystal is a critical measure.
 \begin{figure}
-  \centering
-  \includegraphics[scale=0.5]{Figures/Fig1WholeSystem.png}
-  \caption{Whole system}
-  \label{WholeSystem}
+    \centering
+    \includegraphics[scale=0.5]{Figures/Fig1WholeSystem.png}
+    \caption{Whole system}
+    \label{WholeSystem}
 \end{figure}
 
 
@@ -37,10 +37,10 @@ This is unfavorable for the entire micro-focusing experiment process.
 
 
 \begin{figure}
-  \centering
-  \includegraphics[scale=0.5]{Figures/Fig2CRL.png}
-  \caption{Structure of Compound Reflective Lens}
-  \label{CRL}
+    \centering
+    \includegraphics[scale=0.5]{Figures/Fig2CRL.png}
+    \caption{Structure of Compound Reflective Lens}
+    \label{CRL}
 \end{figure}
 Compound Refractive Lenses(CRLs) are composed of a series of single lenses arranged in a linear array to achieve X-ray focusing in the energy range of 5-40 keV.
 As shown in \autoref{CRL}, the most widely used CRLs are parabolic compound refraction lenses.
@@ -53,10 +53,10 @@ Despite this, the luminous flux can be maintained at $\mathrm{10^{10}\sim 10^{11
 This flux is enough to study the structure of crystalline polymers.
 
 \begin{figure}
-  \centering
-  \includegraphics[scale=0.5]{Figures/Fig3POM.png}
-  \caption{POM overall disassembly and lens cone disassembly}
-  \label{POM}
+    \centering
+    \includegraphics[scale=0.5]{Figures/Fig3POM.png}
+    \caption{POM overall disassembly and lens cone disassembly}
+    \label{POM}
 \end{figure}
 Polarized Optical Microscope(POM) is a simple and intuitive method for studying polymer crystal morphology.
 \autoref{POM} is a schematic diagram of the disassembly of a POM.
@@ -77,61 +77,91 @@ For this reason, a beryllium CRL was chosen.
 There are three common single lens, is the parameters of them.
 Considering the size of the lens container, lens with 50 $\mathrm{\mu m}$ was chosen.
 \begin{table}
-  \centering
-  \caption{Parameters of several common single lens}
-  \begin{tabular}{ccc}
-    \toprule
-    Radius $R$/$\mathrm{\mu m}$ & Aperture 2$R_0$/$\mathrm{\mu m}$ & Area $\pi R_0^2$/$\mathrm{mm^{-2}}$ \\
-    \midrule
-    200                         & 881                              & 0.609                               \\
-    100                         & 623                              & 0.305                               \\
-    50                          & 440                              & 0.152                               \\
-    \bottomrule
-  \end{tabular}
-  \label{CRL parameters}
+    \centering
+    \caption{Parameters of several common single lens}
+    \begin{tabular}{ccc}
+        \toprule
+        Radius $R$/$\mathrm{\mu m}$ & Aperture 2$R_0$/$\mathrm{\mu m}$ & Area $\pi R_0^2$/$\mathrm{mm^{-2}}$ \\
+        \midrule
+        200                         & 881                              & 0.609                               \\
+        100                         & 623                              & 0.305                               \\
+        50                          & 440                              & 0.152                               \\
+        \bottomrule
+    \end{tabular}
+    \label{CRL parameters}
 \end{table}
 
 According to the actual situation of beamline station shed size and pipeline layout.
 Transmittance refers to the ratio of the light intensity after passing through the lens and the light intensity without passing through the lens.
-It can be calculated by \autoref{transmission equation}:
+It can be calculated by \autoref{transmission equation}\cite{Lengeler:ht2006}:
 \begin{equation}
-  T_p=\frac{\int_0^{2\pi}\mathrm{d}\theta\int_0^{R_0}e^{-\mu ND(r)}r\mathrm{d}r}{\int_0^{2\pi}\mathrm{d}\theta\int_0^{R_0}r\mathrm{d}r}=\frac{1-e^{-a}}{a}e^{-\mu Nd}
-  \label{transmission equation}
+    T_p=\frac{\int_0^{2\pi}\mathrm{d}\theta\int_0^{R_0}e^{-\mu ND(r)}r\mathrm{d}r}{\int_0^{2\pi}\mathrm{d}\theta\int_0^{R_0}r\mathrm{d}r}=\frac{1-e^{-a}}{a}e^{-\mu Nd}
+    \label{transmission equation}
 \end{equation}
 In \autoref{transmission equation}, $a=\mu N R_0^2/R$, $R$ and $R_o$ are given in \autoref{CRL parameters}, $N$ is the number of lens; $d$ is the minimum thickness of a single mirror.
 For parabolic lenses, d can be calculated with the following equation:
 \begin{equation}
-  D(r)=d+2\times \frac{r^2}{2R}
-  \label{width}
+    D(r)=d+2\times \frac{r^2}{2R}
+    \label{width}
 \end{equation}
 The maximum processing thickness $D(r)$ of the CRL selected in this experiment is 2 mm.
 Substituting $D(r)$ and $r=R_0$ into the \autoref{width}, the minimum d equals 1.032 mm.
 
 
 According to the actual situation of beamline station shed size and pipeline layout, the image distance is about 400 mm and so is the focal length.
+The focal length calculation formula under the approximate condition of thin lens is :
+\begin{equation}
+    f=R/2N\delta
+\end{equation}
 After a series of calculations, 30 is an appropriate number of lenses.
 Substituting $N=30$ and $d=1.032$ into the \autoref{transmission equation}, $T_p$ equals 0.327.
 
 
 The flux of photons after passing through the lens can be calculated by the following equation:
 \begin{equation}
-  I=i\times T_p \times R
-  \label{intensity}
+    I=i\times T_p \times R
+    \label{intensity}
 \end{equation}
 $i$ is the flux of incident X-ray.
 In BL19U2, under 220 mA current intensity, $i=2.5\times 10^{12}$ photons/s, $R$ is the photon acceptance rate and equals 0.0598.
 Substituting these values into the \autoref{intensity}, $I$ equals $4.89\times 10^{10}$ photons/s. This value is enough to study the structure of crystalline polymers.
 \subsection{Construction of the joint system}
 \begin{figure}
-  \centering
-  \includegraphics[scale=0.5]{Figures/Fig4SiteMap.png}
-  \caption{Site map of the system}
-  \label{sitemap}
+    \centering
+    \includegraphics[scale=0.5]{Figures/Fig4SiteMap.png}
+    \caption{Site map of the system}
+    \label{sitemap}
 \end{figure}
 \autoref{WholeSystem} is the schematic diagram of the structure of synchrotron radiation X-ray micro-focusing polarized microscopy system.
 The combined system includes a micro-focusing component and an in-situ polarized light microscope system.
 After the incident X-ray is focused by the CRL, it will pass through the light hole on the lower side of the POM, and then the scattered signal will be received by the detector.
 The on-site construction diagram of the system is shown in \autoref{sitemap}.
-\section{Application}
 
+
+The structure of POM used in the system is shown in \autoref{POM}.
+
+
+As shown in \autoref{POM}b, the optical system of POM mainly consists of the following parts: a polarizer and analyzer that use ordinary white light sources to generate polarized light; a half mirror located in the middle of the lens barrel; a plane located below the lens barrel Reflecting mirror; at the top is the detector used to collect images. In this system, the detector selects a CCD camera.
+
+
+As shown in \autoref{POM}a, the in-situ POM system is installed on a motorized support platform.
+A stepping motor (4$\sim$5) installed on the side of the lens body realizes the translational adjustment of the lens barrel in two dimensions.
+Similarly, the stepping motor (6$\sim$8) on the side of the sample holder realizes its translational adjustment in three dimensions.
+The supporting platform (12) can be further divided into three layers: the uppermost layer is a one-dimensional swing stage and a rotating table, the middle layer is a two-dimensional (horizontal) translational electric platform, and the lowest layer is a three-dimensional translational electric platform.
+Through the adjustment devices in all the above dimensions, The five spatial dimensions of the entire optical system can be adjusted.
+\subsection{Determination of spot parameters }
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.7]{Figures/Fig5CommissionPOMOnSite.png}
+    \caption{Result of commissioning POM on site}
+    \label{pictures}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.7]{Figures/Fig6CRLmicrofocus.png}
+    \caption{Result of CRL microfocus（facula and flux)}
+    \label{fitting}
+\end{figure}
+\section{Application}
+\bibliography{BIBTeX.bib}
 \end{document}

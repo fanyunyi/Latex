@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{Lengeler:ht2006}
+\bibinfo{author}{Lengeler, B.} \emph{et~al.}
+\newblock \bibinfo{title}{{Imaging by parabolic refractive lenses in the hard
+  X-ray range}}.
+\newblock \emph{\bibinfo{journal}{Journal of Synchrotron Radiation}}
+  \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{1153--1167}
+  (\bibinfo{year}{1999}).
+\newblock \urlprefix\url{https://doi.org/10.1107/S0909049599009747}.
+
+\end{thebibliography}
