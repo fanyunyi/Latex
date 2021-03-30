@@ -5,3 +5,5 @@ synchrotron
 guinier
 SAXS
 WAXD
+FWHM
+lamellae

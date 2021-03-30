@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2021.2.5)  23 MAR 2021 10:37
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2021.2.5)  30 MAR 2021 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -801,36 +801,36 @@ File: Figures/Fig2CRL.png Graphic file (type bmp)
 <Figures/Fig2CRL.png>
 File: Figures/Fig3POM.png Graphic file (type bmp)
 <Figures/Fig3POM.png>
- [3] [4] [5]
+ [3] [4] [5] [6]
 File: Figures/Fig4SiteMap.png Graphic file (type bmp)
 <Figures/Fig4SiteMap.png>
- [6] [7]
+ [7]
 File: Figures/Fig5CommissionPOMOnSite.png Graphic file (type bmp)
 <Figures/Fig5CommissionPOMOnSite.png>
+ [8]
 File: Figures/Fig6CRLmicrofocus.png Graphic file (type bmp)
 <Figures/Fig6CRLmicrofocus.png>
- (./Main.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
- [8] [9] [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+ [9] [10]
+File: Figures/Fig7AppliedResearch.png Graphic file (type bmp)
+<Figures/Fig7AppliedResearch.png>
+ [11] (./Main.bbl [12] [13])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
  (./Main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 9A307CE3FF9FFBB4B6EA8AF2D56AA27C.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
+(rerunfilecheck)             Checksum: C101E88BD17AD599A4A9CE4EF93D6DBB.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
  ) 
 Here is how much of TeX's memory you used:
- 26196 strings out of 492909
- 488683 string characters out of 6132924
- 656982 words of memory out of 5000000
- 30031 multiletter control sequences out of 15000+600000
+ 26204 strings out of 492909
+ 488862 string characters out of 6132924
+ 658060 words of memory out of 5000000
+ 30038 multiletter control sequences out of 15000+600000
  541164 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 50i,12n,81p,1318b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,12n,81p,502b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.pdf (10 pages).
+Output written on Main.pdf (14 pages).

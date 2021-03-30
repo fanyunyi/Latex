@@ -5,6 +5,13 @@
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
 
+\bibitem{RN37}
+\bibinfo{author}{Jun~Xu, S.~Z., Haimu~Ye} \& \bibinfo{author}{Guo, B.}
+\newblock \bibinfo{title}{Organization of twisting lamellar crystals in
+  birefringent banded polymer spherulites: A mini-review}.
+\newblock \emph{\bibinfo{journal}{Crystals}} \textbf{\bibinfo{volume}{7}}
+  (\bibinfo{year}{2017}).
+
 \bibitem{Lengeler:ht2006}
 \bibinfo{author}{Lengeler, B.} \emph{et~al.}
 \newblock \bibinfo{title}{{Imaging by parabolic refractive lenses in the hard
@@ -13,5 +20,11 @@
   \textbf{\bibinfo{volume}{6}}, \bibinfo{pages}{1153--1167}
   (\bibinfo{year}{1999}).
 \newblock \urlprefix\url{https://doi.org/10.1107/S0909049599009747}.
+
+\bibitem{als2011elements}
+\bibinfo{author}{Als-Nielsen, J.} \& \bibinfo{author}{McMorrow, D.}
+\newblock \emph{\bibinfo{title}{Elements of Modern X-ray Physics}}
+  (\bibinfo{publisher}{Wiley}, \bibinfo{year}{2011}).
+\newblock \urlprefix\url{https://books.google.co.jp/books?id=rlqlboWlTRMC}.
 
 \end{thebibliography}
