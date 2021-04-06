@@ -1,11 +1,11 @@
 %Mypaper
-\ProvidesClass{Mypaper}[2020/02/13]
-\LoadClass{article}
-\RequirePackage[a4paper,left=3cm,right=3cm]{geometry}
+\ProvidesClass{Mypaper}[2020/02/13] %我定义了一个我自己的文档类型！
+\LoadClass{article} %Latex基本文档类型
+\RequirePackage[a4paper,left=3cm,right=3cm]{geometry} %纸型，页边距
 \RequirePackage{graphicx} %插图宏包
 \RequirePackage{mathptmx} %数学字体包
-\RequirePackage{amsmath}
-\RequirePackage{lineno}
+\RequirePackage{amsmath} %美国数学会公式标准
+\RequirePackage{lineno} %添加行号
 \RequirePackage{setspace}
 \RequirePackage{lipsum} %随机文本
 \RequirePackage{multirow}
@@ -15,13 +15,13 @@
 \RequirePackage{fontspec,xunicode,xltxtra} %以下四行为字体设置 衬线体 无衬线体 等宽体设置
 \RequirePackage{caption}
 \RequirePackage{subcaption}
-\captionsetup[figure]{labelfont={bf},name={Fig.},labelsep=period}
-\captionsetup[table]{labelfont={bf},name={Table.},labelsep=period}
+\captionsetup[figure]{labelfont={bf},name={Fig.},labelsep=period} %图片序号设置
+\captionsetup[table]{labelfont={bf},name={Table.},labelsep=period} %表格序号设置
 \setmainfont{Times New Roman}
 \setsansfont{Arial}
 \setmonofont{Courier New}
-\renewcommand{\baselinestretch}{2}
-\bibliographystyle{naturemag}
+\renewcommand{\baselinestretch}{2} %行间距
+\bibliographystyle{naturemag} %文献引用格式
 \RequirePackage[colorlinks,
 linkcolor=blue,
 anchorcolor=red,
@@ -37,5 +37,5 @@ citecolor=green
   \par\small
   \noindent\mbox{}\hfill{\bfseries \cnabstractname}\hfill\mbox{}\par
   \vskip 2.5ex}{\par\vskip 2.5ex}{}
-\captionsetup[FLOAT_TYPE]{labelformat=simple, labelsep=none}
-\author{Fanyunyi}
+\captionsetup[FLOAT_TYPE]{labelformat=simple, labelsep=none} %章节名设置
+\author{Fanyunyi} %作者,用\maketitle控制显示
