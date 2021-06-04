@@ -5,6 +5,47 @@
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
 
+\bibitem{RN38}
+\bibinfo{author}{Buffet, A.} \emph{et~al.}
+\newblock \bibinfo{title}{P03, the microfocus and nanofocus x-ray scattering
+  (minaxs) beamline of the petra iii storage ring: the microfocus endstation}.
+\newblock \emph{\bibinfo{journal}{J Synchrotron Radiat}}
+  \textbf{\bibinfo{volume}{19}}, \bibinfo{pages}{647--53}
+  (\bibinfo{year}{2012}).
+\newblock \urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/22713902}.
+
+\bibitem{RN132KBmirror}
+\bibinfo{author}{Liu, W.~J.} \emph{et~al.}
+\newblock \bibinfo{title}{Short focal length kirkpatrick-baez mirrors for a
+  hard x-ray nanoprobe}.
+\newblock \emph{\bibinfo{journal}{Review of Scientific Instruments}}
+  \textbf{\bibinfo{volume}{76}} (\bibinfo{year}{2005}).
+\newblock \urlprefix\url{<Go to ISI>://WOS:000233569800024}.
+
+\bibitem{RN133glasscapillaries}
+\bibinfo{author}{Zeng, X.~H.} \emph{et~al.}
+\newblock \bibinfo{title}{Ellipsoidal and parabolic glass capillaries as
+  condensers for x-ray microscopes}.
+\newblock \emph{\bibinfo{journal}{Applied Optics}}
+  \textbf{\bibinfo{volume}{47}}, \bibinfo{pages}{2376--2381}
+  (\bibinfo{year}{2008}).
+\newblock \urlprefix\url{<Go to ISI>://WOS:000256365000075}.
+
+\bibitem{RN134firstCRL}
+\bibinfo{author}{A.~Snigirev*, I. S. . B.~L., V.~Kohnt}.
+\newblock \bibinfo{title}{A compound refractive lens for focusing high-energy
+  x-rays}.
+\newblock \emph{\bibinfo{journal}{NATURE}}  (\bibinfo{year}{1996}).
+
+\bibitem{RN135CRL}
+\bibinfo{author}{Dudchik, Y.~I.} \emph{et~al.}
+\newblock \bibinfo{title}{Microspot x-ray focusing using a short focal-length
+  compound refractive lenses}.
+\newblock \emph{\bibinfo{journal}{Review of Scientific Instruments}}
+  \textbf{\bibinfo{volume}{75}}, \bibinfo{pages}{4651--4655}
+  (\bibinfo{year}{2004}).
+\newblock \urlprefix\url{<Go to ISI>://WOS:000224962900046}.
+
 \bibitem{RN37}
 \bibinfo{author}{Jun~Xu, S.~Z., Haimu~Ye} \& \bibinfo{author}{Guo, B.}
 \newblock \bibinfo{title}{Organization of twisting lamellar crystals in
@@ -26,5 +67,13 @@
 \newblock \emph{\bibinfo{title}{Elements of Modern X-ray Physics}}
   (\bibinfo{publisher}{Wiley}, \bibinfo{year}{2011}).
 \newblock \urlprefix\url{https://books.google.co.jp/books?id=rlqlboWlTRMC}.
+
+\bibitem{RN33}
+\bibinfo{author}{Liu, J.}, \bibinfo{author}{Ye, H.-M.}, \bibinfo{author}{Xu,
+  J.} \& \bibinfo{author}{Guo, B.-H.}
+\newblock \bibinfo{title}{Formation of ring-banded spherulites of α and β
+  modifications in poly(butylene adipate)}.
+\newblock \emph{\bibinfo{journal}{Polymer}} \textbf{\bibinfo{volume}{52}},
+  \bibinfo{pages}{4619--4630} (\bibinfo{year}{2011}).
 
 \end{thebibliography}

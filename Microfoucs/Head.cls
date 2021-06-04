@@ -15,6 +15,7 @@
 \RequirePackage{fontspec,xunicode,xltxtra} %以下四行为字体设置 衬线体 无衬线体 等宽体设置
 \RequirePackage{caption}
 \RequirePackage{subcaption}
+\RequirePackage[numbers,sort&compress]{natbib}
 \captionsetup[figure]{labelfont={bf},name={Fig.},labelsep=period} %图片序号设置
 \captionsetup[table]{labelfont={bf},name={Table.},labelsep=period} %表格序号设置
 \setmainfont{Times New Roman}

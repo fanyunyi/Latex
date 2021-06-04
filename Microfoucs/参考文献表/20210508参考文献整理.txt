@@ -1,0 +1,65 @@
+﻿@article{RN134firstCRL,
+   author = {A. Snigirev*, V. Kohnt, I. Snigireva* & B. Lengeler*t },
+   title = {A compound refractive lens for 
+focusing high-energy X-rays},
+   journal = {NATURE},
+   year = {1996},
+   type = {Journal Article}
+}
+
+@article{RN135CRL,
+   author = {Dudchik, Y. I. and Kolchevsky, N. N. and Komarov, F. F. and Piestrup, M. A. and Cremer, J. T. and Gary, C. K. and Park, H. and Khounsary, A. M.},
+   title = {Microspot x-ray focusing using a short focal-length compound refractive lenses},
+   journal = {Review of Scientific Instruments},
+   volume = {75},
+   number = {11},
+   pages = {4651-4655},
+   ISSN = {0034-6748},
+   DOI = {10.1063/1.1809289},
+   url = {<Go to ISI>://WOS:000224962900046},
+   year = {2004},
+   type = {Journal Article}
+}
+
+@article{RN132KBmirror,
+   author = {Liu, W. J. and Ice, G. E. and Tischler, J. Z. and Khounsary, A. and Liu, C. and Assoufid, L. and Macrander, A. T.},
+   title = {Short focal length Kirkpatrick-Baez mirrors for a hard x-ray nanoprobe},
+   journal = {Review of Scientific Instruments},
+   volume = {76},
+   number = {11},
+   ISSN = {0034-6748},
+   DOI = {10.1063/1.2125730},
+   url = {<Go to ISI>://WOS:000233569800024},
+   year = {2005},
+   type = {Journal Article}
+}
+
+@article{RN131,
+   author = {Suzuki, Y. and Takeuchi, A. and Terada, Y.},
+   title = {High-energy x-ray microbeam with total-reflection mirror optics},
+   journal = {Rev Sci Instrum},
+   volume = {78},
+   number = {5},
+   pages = {053713},
+   ISSN = {0034-6748 (Print)
+0034-6748 (Linking)},
+   DOI = {10.1063/1.2736787},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/17552831},
+   year = {2007},
+   type = {Journal Article}
+}
+
+@article{RN133glass capillaries,
+   author = {Zeng, X. H. and Duewer, F. and Feser, M. and Huang, C. and Lyon, A. and Tkachuk, A. and Yun, W. B.},
+   title = {Ellipsoidal and parabolic glass capillaries as condensers for x-ray microscopes},
+   journal = {Applied Optics},
+   volume = {47},
+   number = {13},
+   pages = {2376-2381},
+   ISSN = {1559-128X},
+   DOI = {10.1364/ao.47.002376},
+   url = {<Go to ISI>://WOS:000256365000075},
+   year = {2008},
+   type = {Journal Article}
+}
+

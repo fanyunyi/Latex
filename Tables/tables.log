@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2021.2.5)  22 MAR 2021 18:30
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2021.2.5)  28 APR 2021 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -784,25 +784,30 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
- (d:/Texlive/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+
+Underfull \hbox (badness 2626) in paragraph at lines 55--55
+[]\TU/TimesNewRoman(0)/m/n/10 Table 4: |Main thermal degradation parameters of composites in terms of onset temperature of
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
+(d:/Texlive/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ) [1]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
  (./tables.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 54.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 69.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
 Package rerunfilecheck Info: File `tables.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
  ) 
 Here is how much of TeX's memory you used:
  26125 strings out of 492909
  487144 string characters out of 6132924
- 655356 words of memory out of 5000000
+ 657356 words of memory out of 5000000
  29983 multiletter control sequences out of 15000+600000
  541108 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 50i,11n,81p,323b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,11n,81p,353b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on tables.pdf (1 page).
